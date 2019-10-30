@@ -1,4 +1,4 @@
-package ru.mikheev.kirill;
+package ru.mikheev.kirill.les2;
 
 import ru.mikheev.kirill.les2.task1.HelloWorld;
 import ru.mikheev.kirill.les2.task2.Generator;

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="" />
+    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/Test.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\kir_9\IdeaProjects\Tasks" />
+        <option value="C:\Users\kir_9\IdeaProjects\Tasks\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1Sw89K4MxsOl0AYnoKzYzsN6GBf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,8 +55,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.Test" />
+    <configuration name="TestLes2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les2.Test" />
       <module name="Tasks" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572463144574</updated>
-      <workItem from="1572463148589" duration="5163000" />
+      <workItem from="1572463148589" duration="5404000" />
     </task>
     <servers />
   </component>
