@@ -1,12 +1,16 @@
 package ru.mikheev.kirill.les2.task3;
 
+
 public class QuickSort implements Sorting {
 
     @Override
     public void sort(Comparable[] array) {
+        long millis = System.currentTimeMillis();
         int startIndex = 0;
         int endIndex = array.length - 1;
         doSort(startIndex, endIndex, array);
+        System.out.print("time for sort - ");
+        System.out.println(System.currentTimeMillis() - millis);
     }
 
     private void doSort(int start, int end, Comparable[] array){

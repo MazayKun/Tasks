@@ -20,7 +20,7 @@ public class Test {
         Person[] people = pf.generatePopulation(100);
         pf.printPopulation(people);
         ss.sort(people);
-        System.out.printf("-----------------------------------------------");
+        System.out.println("-----------------------------------------------");
         pf.printPopulation(people);
     }
 }
