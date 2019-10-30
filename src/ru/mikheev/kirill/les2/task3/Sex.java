@@ -6,7 +6,7 @@ package ru.mikheev.kirill.les2.task3;
  */
 public enum Sex {
     MAN("MAN"),
-    WOMEN("WOMEN");
+    WOMAN("WOMAN");
 
     String field;
     Sex(String field){
