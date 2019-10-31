@@ -12,7 +12,7 @@ public class PersonFactory {
         for (int i = 0; i < N; i++) {
             int age = random.nextInt(100);
             String name = fname[random.nextInt(fname.length)];
-            Sex sex = random.nextInt(2) == 0 ? Sex.MAN : Sex.WOMEN;
+            Sex sex = random.nextInt(2) == 0 ? Sex.MAN : Sex.WOMAN;
             population[i] = new Person(sex, age, name);
         }
         return population;
