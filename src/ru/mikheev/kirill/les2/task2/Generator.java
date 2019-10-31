@@ -13,6 +13,8 @@ public class Generator {
         for (int i = 0; i < N; i++){
             k[i] = rnd.nextInt();
 
+            //если использовать throws вместо try catch, то программа всегда будет крашиться
+
             try {
                 if(k[i] < 0){
                     throw new ArithmeticException();
@@ -24,7 +26,6 @@ public class Generator {
                     System.out.println(k[i]);
                 }
             }catch (ArithmeticException e){
-                //ничего не делаю, потому что вывод занимает очень много места
             }
         }
     }
