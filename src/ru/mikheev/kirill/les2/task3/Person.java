@@ -7,11 +7,11 @@ package ru.mikheev.kirill.les2.task3;
 public class Person implements Comparable<Person>{
 
     /** Поле, которое хранит пол человека */
-    public Sex sex;
+    private Sex sex;
     /** Поле, которое хранит возраст человека */
-    public Integer age;
+    private Integer age;
     /** Поле, которое хранит пол человека */
-    public String name;
+    private String name;
 
     /**
      * Конструктор принимает все основные поля класса и сохраняет их
@@ -33,16 +33,40 @@ public class Person implements Comparable<Person>{
      */
     @Override
     public int compareTo(Person person) {
-        if(person.sex.compareTo(this.sex) != 0 ){
-            return person.sex.compareTo(this.sex);
+        if(person.getSex().compareTo(this.sex) != 0 ){
+            return person.getSex().compareTo(this.sex);
         }
-        if(this.age.compareTo(person.age) != 0){
-            return this.age.compareTo(person.age);
+        if(this.age.compareTo(person.getAge()) != 0){
+            return this.age.compareTo(person.getAge());
         }
-        if(person.name.compareTo(this.name) != 0){
-            return person.name.compareTo(this.name);
+        if(person.getName().compareTo(this.name) != 0){
+            return person.getName().compareTo(this.name);
         }
         return 0;
+    }
+
+    /**
+     * Стандартный геттер
+     * @return пол человека
+     */
+    public Sex getSex() {
+        return sex;
+    }
+
+    /**
+     * Стандартный геттер
+     * @return возраст человека
+     */
+    public Integer getAge() {
+        return age;
+    }
+
+    /**
+     * Стандартный геттер
+     * @return имя человека
+     */
+    public String getName() {
+        return name;
     }
 
     /**

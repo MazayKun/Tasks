@@ -6,20 +6,20 @@ import java.util.Random;
  * Класс, позволяющий создавать массив, заполненный случайно сгенерированными элементами класса Person
  */
 
-public class PersonFactory {
+public class PersonGenerator {
 
     /** Пулл возможных имен */
     String[] fname = {"a", "b", "c", "d", "e"};
 
     /**
      * Генерирует массив случайных Person
-     * @param N Количество человек в массиве
+     * @param n Количество человек в массиве
      * @return Массив Person
      */
-    public Person[] generatePopulation(int N) {
-        Person[] population = new Person[N];
+    public Person[] generatePopulation(int n) {
+        Person[] population = new Person[n];
         Random random = new Random();
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < n; i++) {
             int age = random.nextInt(100);
             String name = fname[random.nextInt(fname.length)];
             Sex sex = random.nextInt(2) == 0 ? Sex.MAN : Sex.WOMAN;

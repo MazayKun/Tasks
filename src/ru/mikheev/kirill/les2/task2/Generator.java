@@ -11,13 +11,13 @@ import java.util.Random;
 public abstract class Generator {
 
     /**
-     * @param N количество чисел для генерации
+     * @param n количество чисел для генерации
      */
-    public static void generate(int N) {
+    public static void generate(int n) {
         Random rnd = new Random();
-        int[] k = new int[N];
+        int[] k = new int[n];
 
-        for (int i = 0; i < N; i++){
+        for (int i = 0; i < n; i++){
             k[i] = rnd.nextInt();
 
             //если использовать throws вместо try catch, то программа всегда будет крашиться

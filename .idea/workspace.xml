@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
+    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="Add JavaDoc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task1/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task1/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task2/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task2/Generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/DoppelgangerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/DoppelgangerException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/PersonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/PersonFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/QuickSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/QuickSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/SelectionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/SelectionSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Sex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Sex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/PersonFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/PersonGenerator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572463144574</updated>
       <workItem from="1572463148589" duration="6946000" />
-      <workItem from="1572515284409" duration="5621000" />
+      <workItem from="1572515284409" duration="8491000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -115,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572520977516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add JavaDoc">
+      <created>1572534149136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572534149136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +138,7 @@
     <MESSAGE value="add time" />
     <MESSAGE value="Add DoppelgangerException" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="Add JavaDoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JavaDoc" />
   </component>
 </project>

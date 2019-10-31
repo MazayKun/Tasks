@@ -15,7 +15,7 @@ public class Test {
         //Generator.generate(1000);
         QuickSorter qs = new QuickSorter();
         SelectionSorter ss = new SelectionSorter();
-        PersonFactory pf = new PersonFactory();
+        PersonGenerator pf = new PersonGenerator();
         Person[] people = pf.generatePopulation(100);
         pf.printPopulation(people);
 
