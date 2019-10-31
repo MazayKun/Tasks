@@ -1,6 +1,6 @@
 package ru.mikheev.kirill.les2.task3;
 
-public class SelectionSort implements Sorting {
+public class SelectionSorter implements Sorting {
     @Override
     public void sort(Comparable[] array) throws DoppelgangerException {
         long millis = System.currentTimeMillis();

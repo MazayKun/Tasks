@@ -1,7 +1,7 @@
 package ru.mikheev.kirill.les2.task3;
 
 
-public class QuickSort implements Sorting {
+public class QuickSorter implements Sorting {
 
     @Override
     public void sort(Comparable[] array) throws DoppelgangerException {

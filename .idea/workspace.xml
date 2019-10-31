@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/DoppelgangerException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task2/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task2/Generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Sorting.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572463144574</updated>
       <workItem from="1572463148589" duration="6946000" />
-      <workItem from="1572515284409" duration="1512000" />
+      <workItem from="1572515284409" duration="2810000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -97,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572469503370</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add DoppelgangerException">
+      <created>1572517729957</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572517729957</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="add time" />
-    <option name="LAST_COMMIT_MESSAGE" value="add time" />
+    <MESSAGE value="Add DoppelgangerException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DoppelgangerException" />
   </component>
 </project>

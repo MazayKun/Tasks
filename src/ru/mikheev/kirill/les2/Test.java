@@ -1,7 +1,5 @@
 package ru.mikheev.kirill.les2;
 
-import ru.mikheev.kirill.les2.task1.HelloWorld;
-import ru.mikheev.kirill.les2.task2.Generator;
 import ru.mikheev.kirill.les2.task3.*;
 
 public class Test {
@@ -11,8 +9,8 @@ public class Test {
         //hw.helloWorld();
         //Generator generator = new Generator();
         //generator.generate();
-        QuickSort qs = new QuickSort();
-        SelectionSort ss = new SelectionSort();
+        QuickSorter qs = new QuickSorter();
+        SelectionSorter ss = new SelectionSorter();
         PersonFactory pf = new PersonFactory();
         Person[] people = pf.generatePopulation(100);
         pf.printPopulation(people);
