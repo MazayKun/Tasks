@@ -2,6 +2,10 @@ package ru.mikheev.kirill.les2.task1;
 
 import java.io.FileNotFoundException;
 
+/**
+ * Класс для проверки того, как работаю Exception в Java
+ */
+
 public class HelloWorld {
 
     public void helloWorld() {

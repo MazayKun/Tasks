@@ -2,11 +2,18 @@ package ru.mikheev.kirill.les2.task2;
 
 import java.util.Random;
 
-public class Generator {
+/**
+ * Абстрактный класс, предоставляющий статичный метод для генерации набора случайных чисел
+ * и проверки возможности взятия из них корня, если корень взять можно, то проверяется, является ли результат целым,
+ * если да, то число выводится на экран
+ */
 
-    public void generate() {
+public abstract class Generator {
 
-        int N = 1000;
+    /**
+     * @param N количество чисел для генерации
+     */
+    public static void generate(int N) {
         Random rnd = new Random();
         int[] k = new int[N];
 

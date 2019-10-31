@@ -1,8 +1,16 @@
 package ru.mikheev.kirill.les2.task3;
 
+/**
+ * Класс, производящий быструю сортировку
+ */
 
 public class QuickSorter implements Sorting {
 
+    /**
+     * Метод, сортирующий массив элементов Comparable
+     * @param array
+     * @throws DoppelgangerException выбрасывает если найдены 2 человека с одинаковыми возрастом и именем
+     */
     @Override
     public void sort(Comparable[] array) throws DoppelgangerException {
         long millis = System.currentTimeMillis();
@@ -13,6 +21,14 @@ public class QuickSorter implements Sorting {
         System.out.println(System.currentTimeMillis() - millis);
     }
 
+    /**
+     * Вспомогательаня функция, которая рекурсивно сортирует часть массива начиная с элемента с
+     * индексом start и заканчивая элементов с индексом end
+     * @param start
+     * @param end
+     * @param array
+     * @throws DoppelgangerException выбрасывает если найдены 2 человека с одинаковыми возрастом и именем
+     */
     private void doSort(int start, int end, Comparable[] array) throws DoppelgangerException{
         if (start >= end)
             return;
