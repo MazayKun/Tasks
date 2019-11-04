@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task1/MathBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task2/ObjectBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task3/MathBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task3/ObjectBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task1/MathBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task1/MathBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task3/MathBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task3/MathBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task3/ObjectBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/task3/ObjectBox.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,8 @@
       <updated>1572463144574</updated>
       <workItem from="1572463148589" duration="6946000" />
       <workItem from="1572515284409" duration="8597000" />
-      <workItem from="1572626470946" duration="11475000" />
+      <workItem from="1572626470946" duration="12585000" />
+      <workItem from="1572849596544" duration="11133000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572545611087</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add tasks 3">
+      <created>1572649741067</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572649741067</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="Add JavaDoc" />
     <MESSAGE value="Fix some minor mistakes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix some minor mistakes" />
+    <MESSAGE value="Add tasks 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tasks 3" />
   </component>
 </project>

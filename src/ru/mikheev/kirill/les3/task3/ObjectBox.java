@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 /**
  * @author Kirill Mikheev
- * @version 1.0
+ * @version 2.0
  *
- * Тот же класс, что и во 2 задани, но изменен для комфортного наследования
+ * Тот же класс, что и во 2 задани, но изменен для комфортного наследования (изменен метод addObject)
  */
 
 public class ObjectBox {

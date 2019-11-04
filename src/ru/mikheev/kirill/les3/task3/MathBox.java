@@ -5,24 +5,155 @@ import java.util.Arrays;
 
 /**
  * @author Kirill Mikheev
- * @version 1.0
+ * @version 2.0
  *
  * Тот же MathBox, но модифицированный под 3 задание
  * Наследует класс ObjectBox, который лежит в этом же пакете
  */
 
-public class MathBox extends ru.mikheev.kirill.les3.task3.ObjectBox {
-    /** Коллекция объектов типа Number, которую хранит класс */
-    private ArrayList<Number> members;
+public class MathBox<T extends Number> extends ru.mikheev.kirill.les3.task3.ObjectBox {
+
+    /** Коллекция объектов типа T, которую хранит класс */
+    private ArrayList<T> members;
 
     /**
      * Конструктор, принимающий массив Number, и сохраняющий их в коллекцию
      * @param members массиав Number
      */
-    public MathBox(Number[] members){
+    public MathBox(T[] members){
         super();
         this.members = new ArrayList<>(Arrays.asList(members));
     }
+
+    /**
+     * Метод суммирует все элементы коллекции  (Как я уже писал выше, тут используется понижение до типа Double)
+     * @return объект типа Double приведенный к T - сумма всей коллекции
+     */
+    @SuppressWarnings("unchecked")
+    public T summator() {
+        Double sum = 0d;
+        for (Number tmp : members){
+            sum += tmp.doubleValue();
+        }
+        return (T)sum;
+    }
+
+    /**
+     * Метод делит все числа коллекции на переданное число
+     * С этим методом так же не обошлось без проблем
+     * Во-первых, я по прежнему использую тип Double для всех операций
+     * Во-вторых, опять же из-за стирания, мне приходится новые значения сохранять с потерей типав, в итоге я использую
+     * метод, который создает анонимный Number, и после деления вся коллекция заменятеся на новую, которая состоит
+     * только из анонимных Number
+     * @param split число, на которое нужно разделить коллекцию
+     * @return 0 если все прошло успешно, -1 если произошло деление на 0
+     */
+    @SuppressWarnings("unchecked")
+    public int splitter(Number split) {
+        if(split.doubleValue() == 0) {
+            return -1;
+        }
+        ArrayList<T> newArr= new ArrayList<>();
+        for (T tmp : members) {
+            Double answ = tmp.doubleValue() / split.doubleValue();
+            newArr.add((T)createNumber(answ));
+        }
+        members = newArr;
+        return 0;
+    }
+
+    /**
+     * Возвращает копию коллекции хранимой в данном объекте (чтобы ее нельзя было менять)
+     * @return копия коллекции
+     */
+    @SuppressWarnings("unchecked")
+    public ArrayList<T> getMembers() {
+        return (ArrayList<T>)members.clone();
+    }
+
+    /**
+     * Метод получет на вход Integer и если находит в коллекции элемент, Double
+     * представление которого соответствует Double представлению параметра, то удаляет его
+     * @param toRemove  Integer на удаление
+     * @return null если элемент не найдет или объект Number, который был удален
+     */
+    @SuppressWarnings("unchecked")
+    public T remove(Integer toRemove) {
+        boolean flag = false;
+        Number r = null;
+        for (Number tmp : members){
+            if(tmp.doubleValue() == toRemove.doubleValue()){
+                flag = true;
+                r = tmp;
+            }
+        }
+        if(flag){
+            members.remove(r);
+            return (T)r;
+        }else{
+            return null;
+        }
+    }
+
+    /**
+     * Возвращает хэш-код объекта, равный интовому значению первого элемента в коллекции,
+     * если коллекция пустая, то выдает 0
+     * @return хэш-код объекта
+     */
+    @Override
+    public int hashCode() {
+        return members.isEmpty() ? 0 : members.get(0).intValue();
+    }
+
+    /**
+     * Метод проверяет равенство переданному объекту
+     * 1)Сначала он проверяет не передали ли ему null, если передали, то выдает false
+     * 2)Потом проверяет является ли obj MathBox, если нет, то выдает false
+     * 3)Далее сравниваются ссылки, если они равны, то выдает true
+     * 4)В конце сравниваются длины хранимых коллекций, если они не равны, то выдает false, если же они равны, то
+     * проводит поэлементное сравнение, если все эелементы равны, то выдает true, иначе false
+     * @param obj объект для сравнения
+     * @return true если объекты равны и false если нет
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if(obj == null){
+            return false;
+        }
+        if(! (obj instanceof MathBox)){
+            return false;
+        }
+        if(this == obj){
+            return true;
+        }
+        if(this.members.size() != ((MathBox)obj).getMembers().size()){
+            return false;
+        }
+        boolean flag = true;
+        ArrayList<Number> tmp = ((MathBox) obj).getMembers();
+        for (int i = 0; i < members.size(); i++){
+            if(!members.get(i).equals(tmp.get(i))){
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
+
+    /**
+     * Метод возвращает строку перечислаения всех элементов через пробел в формате Double
+     * @return строка элементов
+     */
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (T tmp : members){
+            sb.append(tmp.doubleValue());
+            sb.append(" ");
+        }
+        return sb.toString();
+    }
+
 
     /**
      * Перепределнный метод, котоырй добавляет объект в коллекцию, выдает исключение, если объект не Number
@@ -34,128 +165,7 @@ public class MathBox extends ru.mikheev.kirill.les3.task3.ObjectBox {
         if (!(obj instanceof Number)){
             throw new ClassCastException();
         }
-        members.add((Number) obj);
-    }
-
-    /**
-     * Метод суммирует все элементы коллекции
-     * @return объект Number - сумма всей коллекции
-     */
-    public Number summator() {
-        Double sumD = 0d;
-
-        for (Number tmp : members){
-            sumD += tmp.doubleValue();
-        }
-        final Double tmpD = sumD;
-
-        return createNumber(tmpD);
-    }
-
-    /**
-     * Метод делит все числа коллекции на переданное число (На самом деле создается новая коллекция на замену старой)
-     * @param split число, на которое нужно разделить коллекцию
-     * @return 0 если все прошло успешно, -1 если произошло деление на 0
-     */
-    public int splitter(Number split) {
-        if(split.doubleValue() == 0) {
-            return -1;
-        }
-        ArrayList<Number> newArr= new ArrayList<>();
-        for (Number tmp : members) {
-            Double answ = tmp.doubleValue() / split.doubleValue();
-            newArr.add(createNumber(answ));
-        }
-        return 0;
-    }
-
-    /**
-     * Возвращает коллекцию хранимых объектов
-     * @return коллекция
-     */
-    public ArrayList<Number> getMembers() {
-        return members;
-    }
-
-    /**
-     * Метод возвращает строку перечислаения всех элементов через пробел в формате Double
-     * @return строка элементов
-     */
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        for (Number tmp : members){
-            sb.append(tmp.doubleValue());
-            sb.append(" ");
-        }
-        return sb.toString();
-    }
-
-    /**
-     * Метод получет на вход Integer и если находит в коллекции элемент Double,
-     * представление которого соответствует данному, то удаляет его
-     * @param toRemove  Integer на удаление
-     * @return null если элемент не найдет или объект Number, который был удален
-     */
-    public Number remove(Integer toRemove) {
-        boolean flag = false;
-        Number r = null;
-        for (Number tmp : members){
-            if(tmp.doubleValue() == toRemove.doubleValue()){
-                flag = true;
-                r = tmp;
-            }
-        }
-        if(flag){
-            members.remove(r);
-            return r;
-        }else{
-            return null;
-        }
-    }
-
-    /**
-     * Возвращает хэш-код объекта, равный значению первого элемента в коллекции, если коллекция пустая, то выдает 0
-     * @return хэш-код объекта
-     */
-    @Override
-    public int hashCode() {
-        return members.isEmpty() ? 0 : members.get(0).intValue();
-    }
-
-    /**
-     * Метод проверяет равенство переданному объекту
-     * Метод сначала проверяет не передали ли ему null, если передали, то выдает false
-     * Потом проверяет является ли obj MathBox, если нет, то выдает false
-     * Далее сравниваются ссылки, если они равны, то выдает true
-     * В конце сравниваются длины хранимых коллекций, если они не равны, то выдает false, если же они равны, то
-     * проводит поэлементное сравнение, если все эелементы равны, то выдает true, иначе false
-     * @param obj объект для сравнения
-     * @return true если объекты равны и false если нет
-     */
-    @Override
-    public boolean equals(Object obj) {
-        if(obj == null){
-            return false;
-        }
-        if(! (obj instanceof ru.mikheev.kirill.les3.task1.MathBox)){
-            return false;
-        }
-        if(this == obj){
-            return true;
-        }
-        if(this.members.size() != ((ru.mikheev.kirill.les3.task1.MathBox)obj).getMembers().size()){
-            return false;
-        }
-        boolean flag = true;
-        ArrayList<Number> tmp = ((ru.mikheev.kirill.les3.task1.MathBox) obj).getMembers();
-        for (int i = 0; i < members.size(); i++){
-            if(!members.get(i).equals(tmp.get(i))){
-                flag = false;
-                break;
-            }
-        }
-        return flag;
+        members.add((T) obj);
     }
 
     /**
@@ -178,10 +188,7 @@ public class MathBox extends ru.mikheev.kirill.les3.task3.ObjectBox {
      */
     @Override
     public void dump() {
-        for (Number tmp: members) {
-            System.out.print(tmp.doubleValue() + " ");
-        }
-        System.out.print("\n");
+        System.out.println(this.toString());
     }
 
     /**
