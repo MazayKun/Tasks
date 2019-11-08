@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/PersonGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les2/task3/PersonGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/task/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/task/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/task/AnimalDataBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/task/AnimalDataBank.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +100,7 @@
       <workItem from="1572515284409" duration="8597000" />
       <workItem from="1572626470946" duration="12585000" />
       <workItem from="1572849596544" duration="11491000" />
-      <workItem from="1573239917851" duration="9484000" />
+      <workItem from="1573239917851" duration="9839000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -169,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573243648037</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Добавил свинослона">
+      <created>1573249845798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573249845798</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +201,7 @@
     <MESSAGE value="Add tasks 3" />
     <MESSAGE value="Uploaded the changes in task 1 and task 3 of the 3rd lesson." />
     <MESSAGE value="Add class animal for les5.task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class animal for les5.task" />
+    <MESSAGE value="Добавил свинослона" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил свинослона" />
   </component>
 </project>

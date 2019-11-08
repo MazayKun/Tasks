@@ -24,6 +24,6 @@ public class Test {
         }
         animalDataBank.editAnimal(50, "Свинослон", PersonGenerator.generatePerson(), 100000000d);
         System.out.println(animalDataBank.toString());
-        System.out.println(animalDataBank.findAnimalByName("Свинослон"));
+        System.out.println(animalDataBank.findAnimalByName("ghig"));
     }
 }

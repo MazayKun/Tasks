@@ -3,6 +3,7 @@ package ru.mikheev.kirill.les5.task;
 import ru.mikheev.kirill.les2.task3.DoppelgangerException;
 import ru.mikheev.kirill.les2.task3.Person;
 
+import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.TreeSet;
 import java.util.function.Predicate;
@@ -42,7 +43,12 @@ public class AnimalDataBank {
      * @param newWeight новый вес животного
      */
     public void editAnimal(Integer id, String newName, Person newOwner, Double newWeight){
-        Animal tmp = animals.stream().filter(a -> a.getId().compareTo(id) == 0).findFirst().get();
+        Animal tmp;
+        try {
+            tmp = animals.stream().filter(a -> a.getId().compareTo(id) == 0).findFirst().get();
+        }catch (NoSuchElementException e){
+            return;
+        }
         tmp.setName(newName);
         tmp.setOwner(newOwner);
         tmp.setWeight(newWeight);
@@ -51,10 +57,15 @@ public class AnimalDataBank {
     /**
      * Ищет первое попавшееся животное с данной кличкой
      * @param name кличка животного
-     * @return ссылка на его запись
+     * @return ссылка на его запись, если такого элемента нет, то null
      */
     public Animal findAnimalByName(String name){
-        Animal tmp = animals.stream().filter(a -> a.getName().compareTo(name) == 0).findFirst().get();
+        Animal tmp;
+        try {
+            tmp = animals.stream().filter(a -> a.getName().compareTo(name) == 0).findFirst().get();
+        }catch (NoSuchElementException e){
+            return null;
+        }
         return tmp;
     }
 
