@@ -9,7 +9,7 @@ import java.util.Random;
 public class PersonGenerator {
 
     /** Пулл возможных имен */
-    String[] fname = {"a", "b", "c", "d", "e"};
+    static String[] fname = {"a", "b", "c", "d", "e"};
 
     /**
      * Генерирует массив случайных Person
@@ -26,6 +26,18 @@ public class PersonGenerator {
             population[i] = new Person(sex, age, name);
         }
         return population;
+    }
+
+    /**
+     * Генерирует случайного Person
+     * @return новый случайный Person
+     */
+    public static Person generatePerson(){
+        Random random = new Random();
+        int age = random.nextInt(100);
+        String name = fname[random.nextInt(fname.length)];
+        Sex sex = random.nextInt(2) == 0 ? Sex.MAN : Sex.WOMAN;
+        return new Person(sex, age, name);
     }
 
     /**

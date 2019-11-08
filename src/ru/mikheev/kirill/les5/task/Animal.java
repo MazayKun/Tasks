@@ -1,8 +1,12 @@
 package ru.mikheev.kirill.les5.task;
 
 import ru.mikheev.kirill.les2.task3.Person;
+import ru.mikheev.kirill.les2.task3.PersonGenerator;
+
+import java.util.Random;
 
 /**
+ * Класс, отображающий модель записи информации об одном конкретном животном
  * @author Kirill Mikheev
  * @version 1.0
  */
@@ -11,6 +15,9 @@ public class Animal implements Comparable<Animal>{
 
     /** Счетчик уникальных айди (первое созданное животное будет иметь id = 1)*/
     private static Integer lastId = 0;
+    /** Пул имен для генерации случайного животного */
+    private static String[] fname = {"abc", "def", "ghi" , "jkl"};
+
 
     /** Уникальный id животного*/
     private final Integer id;
@@ -68,6 +75,14 @@ public class Animal implements Comparable<Animal>{
     }
 
     /**
+     * Возвращает id последнего созданного животного
+     * @return id последнего созданного животного
+     */
+    public static Integer getLastId() {
+        return lastId;
+    }
+
+    /**
      * Задает животному новую кличку
      * @param name новая кличка
      */
@@ -91,7 +106,6 @@ public class Animal implements Comparable<Animal>{
         this.weight = weight;
     }
 
-
     /**
      * Сначала проверяется равен ли obj null, если равен, то возвращается false
      * Далее проверяется, является ли obj объектом класса Animal или его наследника, если нет, то возвращает false
@@ -113,7 +127,6 @@ public class Animal implements Comparable<Animal>{
         }
         return this.compareTo((Animal)obj) == 0;
     }
-
 
     /**
      * Возвращает хэш-код данного животного
@@ -156,6 +169,18 @@ public class Animal implements Comparable<Animal>{
      */
     @Override
     public String toString() {
-        return "owner : " + owner.toString() + " | name : " + name + " | weight : " + weight.toString() ;
+        return "owner : " + owner.toString() + " | name : " + name + " | weight : " + weight.toString();
+    }
+
+    /**
+     * Метод для случайной генерации животного
+     * @return Случайно сгенерированное животное
+     */
+    public static Animal generateAnimal() {
+        Random random = new Random();
+        Person owner = PersonGenerator.generatePerson();
+        String name = fname[random.nextInt(fname.length)];
+        Double weight = random.nextDouble() * 100;
+        return new Animal(name, owner, weight);
     }
 }

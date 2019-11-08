@@ -34,10 +34,10 @@ public class Person implements Comparable<Person>{
     @Override
     public int compareTo(Person person) {
         if(person.getSex().compareTo(this.sex) != 0 ){
-            return person.getSex().compareTo(this.sex);
+            return this.getSex().compareTo(person.sex);
         }
         if(this.age.compareTo(person.getAge()) != 0){
-            return this.age.compareTo(person.getAge());
+            return person.age.compareTo(this.getAge());
         }
         if(person.getName().compareTo(this.name) != 0){
             return person.getName().compareTo(this.name);
