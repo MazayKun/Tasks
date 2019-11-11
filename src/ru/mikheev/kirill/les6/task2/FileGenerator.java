@@ -6,14 +6,27 @@ import java.io.IOException;
 import java.util.Random;
 
 /**
+ * Класс содержит в себе методы, обеспечивающие генерацию файлов на основе заданных значений
  * @author Kirill Mikheev
  * @version 1.0
  */
 
 public class FileGenerator {
 
+    /** Массив возможных окончаний предложения */
     private char[] endSym = {'.', '!', '?'};
 
+    /**
+     * Метод генерирует в заданной директории n файлов типа {test0.out, test1.out ... testn.out}
+     * каждый из этих файлов будет содержать количество слов равное size
+     * файлы будут содержать абзацы, в каждом из которых 1 <= N <= 20  предложений, в каждом предложении 1 <= N <= 15 слов
+     * в каждом слове 1 <= N <= 15 букв, так же с вероятностью probability вместо сгенерированного слова может вставиться слово из массива words
+     * @param path директория, в которой будут созданы файлы
+     * @param n количество файлов
+     * @param size количество слов в каждом файле
+     * @param words массив шаблонов слов, которые могут встретиться в файле
+     * @param probability вероятность в процентах (0..100) того, что будет вставлено слово из массива words
+     */
     public void getFiles(String path, int n, int size, String[] words, int probability) {
 
         Random random = new Random();
@@ -62,15 +75,25 @@ public class FileGenerator {
         }
     }
 
+    /**
+     * Приватная функция, которая генерирует слово заданной длины
+     * @param length длина слова
+     * @return случайное слово заданной длины
+     */
     private String generateWord(int length){
         StringBuilder sb = new StringBuilder();
         Random random = new Random();
         for (int i = 0 ; i < length; i++){
-            sb.append(random.nextInt(26) + 97);
+            sb.append((char)(random.nextInt(26) + 97));
         }
         return sb.toString();
     }
 
+    /**
+     * Приватная функция, которая делает первую букву слова заглавной
+     * @param word слово, первую букву которого нужно сделать заглавной
+     * @return возвращает измененное слово
+     */
     private String makeWordFirst(String word){
         word = Character.toUpperCase(word.charAt(0)) + word.substring(1);
         return word;

@@ -4,6 +4,7 @@ import ru.mikheev.kirill.les6.task1.FileSorter;
 import ru.mikheev.kirill.les6.task2.FileGenerator;
 
 /**
+ * Файл мейн для тестирования заданий по 6 занятию
  * @author Kirill Mikheev
  * @version 1.0
  */
@@ -15,6 +16,6 @@ public class Test {
         //fs.sortFile("test.in", "test.out");
         FileGenerator fg = new FileGenerator();
         String[] words = {"kek", "lol", "fif", "dod"};
-        fg.getFiles("", 1, 500, words, 100);
+        fg.getFiles("", 1, 500, words, 50);
     }
 }
