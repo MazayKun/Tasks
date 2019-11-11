@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/task/AnimalDataBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/task/AnimalDataBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLes5">
+  <component name="RunManager" selected="Application.TestLes6">
     <configuration name="TestLes2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les2.Test" />
       <module name="Tasks" />
@@ -80,10 +82,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLes6" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les6.Test" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestLes3" />
       <item itemvalue="Application.TestLes2" />
       <item itemvalue="Application.TestLes5" />
+      <item itemvalue="Application.TestLes6" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -100,7 +110,8 @@
       <workItem from="1572515284409" duration="8597000" />
       <workItem from="1572626470946" duration="12585000" />
       <workItem from="1572849596544" duration="11491000" />
-      <workItem from="1573239917851" duration="9839000" />
+      <workItem from="1573239917851" duration="9905000" />
+      <workItem from="1573498901460" duration="3752000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -172,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573249845798</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Починил отсутствие элементов">
+      <created>1573250210140</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573250210140</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +220,7 @@
     <MESSAGE value="Uploaded the changes in task 1 and task 3 of the 3rd lesson." />
     <MESSAGE value="Add class animal for les5.task" />
     <MESSAGE value="Добавил свинослона" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил свинослона" />
+    <MESSAGE value="Починил отсутствие элементов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Починил отсутствие элементов" />
   </component>
 </project>
