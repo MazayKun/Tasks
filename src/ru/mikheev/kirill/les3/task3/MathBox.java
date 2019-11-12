@@ -1,7 +1,6 @@
 package ru.mikheev.kirill.les3.task3;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * @author Kirill Mikheev
@@ -14,7 +13,10 @@ import java.util.Arrays;
 public class MathBox<T extends Number> extends ru.mikheev.kirill.les3.task3.ObjectBox {
 
     /** Коллекция объектов типа T, которую хранит класс */
-    private ArrayList<T> members;
+    private Set<T> members;
+
+    /** Случайный айди данного MathBox*/
+    private final UUID uuid;
 
     /**
      * Конструктор, принимающий массив Number, и сохраняющий их в коллекцию
@@ -22,7 +24,8 @@ public class MathBox<T extends Number> extends ru.mikheev.kirill.les3.task3.Obje
      */
     public MathBox(T[] members){
         super();
-        this.members = new ArrayList<>(Arrays.asList(members));
+        this.members = new HashSet<>(Arrays.asList(members));
+        uuid = UUID.randomUUID();
     }
 
     /**
@@ -53,7 +56,7 @@ public class MathBox<T extends Number> extends ru.mikheev.kirill.les3.task3.Obje
         if(split.doubleValue() == 0) {
             return -1;
         }
-        ArrayList<T> newArr= new ArrayList<>();
+        Set<T> newArr= new HashSet<>();
         for (T tmp : members) {
             Double answ = tmp.doubleValue() / split.doubleValue();
             newArr.add((T)createNumber(answ));
@@ -67,8 +70,8 @@ public class MathBox<T extends Number> extends ru.mikheev.kirill.les3.task3.Obje
      * @return копия коллекции
      */
     @SuppressWarnings("unchecked")
-    public ArrayList<T> getMembers() {
-        return (ArrayList<T>)members.clone();
+    public Set<T> getMembers() {
+        return (HashSet)((HashSet)members).clone();
     }
 
     /**
@@ -79,20 +82,16 @@ public class MathBox<T extends Number> extends ru.mikheev.kirill.les3.task3.Obje
      */
     @SuppressWarnings("unchecked")
     public T remove(Integer toRemove) {
-        boolean flag = false;
-        Number r = null;
-        for (Number tmp : members){
-            if(tmp.doubleValue() == toRemove.doubleValue()){
-                flag = true;
-                r = tmp;
+        Iterator<T> it = members.iterator();
+        boolean isFound = false;
+        while (it.hasNext()){
+            if(it.next().doubleValue() == toRemove.doubleValue()){
+                it.remove();
+                isFound = true;
+                break;
             }
         }
-        if(flag){
-            members.remove(r);
-            return (T)r;
-        }else{
-            return null;
-        }
+        return isFound ? (T)toRemove : null;
     }
 
     /**
@@ -102,7 +101,7 @@ public class MathBox<T extends Number> extends ru.mikheev.kirill.les3.task3.Obje
      */
     @Override
     public int hashCode() {
-        return members.isEmpty() ? 0 : members.get(0).intValue();
+        return uuid.hashCode();
     }
 
     /**
@@ -129,15 +128,8 @@ public class MathBox<T extends Number> extends ru.mikheev.kirill.les3.task3.Obje
         if(this.members.size() != ((MathBox)obj).getMembers().size()){
             return false;
         }
-        boolean flag = true;
-        ArrayList<Number> tmp = ((MathBox) obj).getMembers();
-        for (int i = 0; i < members.size(); i++){
-            if(!members.get(i).equals(tmp.get(i))){
-                flag = false;
-                break;
-            }
-        }
-        return flag;
+        Set<Number> tmp = ((MathBox) obj).getMembers();
+        return members.equals(tmp);
     }
 
     /**

@@ -1,6 +1,7 @@
 package ru.mikheev.kirill.les3.task2;
 
-import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author Kirill Mikheev
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 public class ObjectBox {
 
     /** Коллекция элементов, хранящихся в этом классе  */
-    private ArrayList<Object> members = new ArrayList<>();
+    private Set<Object> members = new HashSet<>();
 
     /**
      * Конструктор по умолчанию
@@ -35,12 +36,7 @@ public class ObjectBox {
      * @return null если такого объекта в коллекции нет, иначе ссылку на удаленный объект
      */
     public Object deleteObject(Object obj) {
-        if(members.contains(obj)){
-            members.remove(obj);
-            return obj;
-        }else{
-            return null;
-        }
+        return members.remove(obj);
     }
 
     /**
