@@ -21,6 +21,7 @@ public class FileGenerator {
      * каждый из этих файлов будет содержать количество слов равное size
      * файлы будут содержать абзацы, в каждом из которых 1 <= N <= 20  предложений, в каждом предложении 1 <= N <= 15 слов
      * в каждом слове 1 <= N <= 15 букв, так же с вероятностью probability вместо сгенерированного слова может вставиться слово из массива words
+     * так же с вероятностью 25% будет добавления запятая после слова (не последнего в предложении)
      * @param path директория, в которой будут созданы файлы
      * @param n количество файлов
      * @param size количество слов в каждом файле
@@ -51,6 +52,9 @@ public class FileGenerator {
                         size -= wordCount;
                         for (int k = 0; k < wordCount; k++) {
                             String tmp = (onlyArray || random.nextInt(100) < probability) ? words[random.nextInt(words.length)] : generateWord(random.nextInt(15) + 1);
+                            if(random.nextInt(4) == 0 && k != wordCount - 1){
+                                tmp += ",";
+                            }
                             if (k == 0) {
                                 tmp = makeWordFirst(tmp);
                             }
