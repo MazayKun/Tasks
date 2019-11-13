@@ -112,7 +112,8 @@
       <workItem from="1573239917851" duration="9905000" />
       <workItem from="1573498901460" duration="8653000" />
       <workItem from="1573548438531" duration="3282000" />
-      <workItem from="1573583186564" duration="236000" />
+      <workItem from="1573583186564" duration="274000" />
+      <workItem from="1573632803399" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573551167619</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Забыл добавить запятые, теперь они тоже присутствуют">
+      <created>1573583448303</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573583448303</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +270,7 @@
     <MESSAGE value="Добавил файл с ответами" />
     <MESSAGE value="Добавил документацию" />
     <MESSAGE value="Подправил методы remove, hashCode и изменил коллекцию на hashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подправил методы remove, hashCode и изменил коллекцию на hashSet" />
+    <MESSAGE value="Забыл добавить запятые, теперь они тоже присутствуют" />
+    <option name="LAST_COMMIT_MESSAGE" value="Забыл добавить запятые, теперь они тоже присутствуют" />
   </component>
 </project>

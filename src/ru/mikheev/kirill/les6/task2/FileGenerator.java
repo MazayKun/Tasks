@@ -15,6 +15,7 @@ public class FileGenerator {
 
     /** Массив возможных окончаний предложения */
     private char[] endSym = {'.', '!', '?'};
+    private Random random = new Random();
 
     /**
      * Метод генерирует в заданной директории n файлов типа {test0.out, test1.out ... testn.out}
@@ -29,9 +30,6 @@ public class FileGenerator {
      * @param probability вероятность в процентах (0..100) того, что будет вставлено слово из массива words
      */
     public void getFiles(String path, int n, int size, String[] words, int probability) {
-
-        Random random = new Random();
-        boolean onlyArray = (probability >= 100 || probability < 0);
 
         for (int j = 0 ; j < n; j++){
 
@@ -50,16 +48,7 @@ public class FileGenerator {
                             wordCount = size;
                         }
                         size -= wordCount;
-                        for (int k = 0; k < wordCount; k++) {
-                            String tmp = (onlyArray || random.nextInt(100) < probability) ? words[random.nextInt(words.length)] : generateWord(random.nextInt(15) + 1);
-                            if(random.nextInt(4) == 0 && k != wordCount - 1){
-                                tmp += ",";
-                            }
-                            if (k == 0) {
-                                tmp = makeWordFirst(tmp);
-                            }
-                            answ.append(tmp + ((k != wordCount - 1) ? " " : endSym[random.nextInt(endSym.length)] + " "));
-                        }
+                        answ.append(makeSentence(wordCount, words, probability));
                         if (size < 1) {
                             break;
                         }
@@ -80,13 +69,38 @@ public class FileGenerator {
     }
 
     /**
+     * Метод генерирует предложение с заданным количеством слов
+     * С некоторой вероятнотстью в предложении могут встретиться слова из переданного массива
+     * В предложении могут встречаться запятые, так же оно начинается с заглавное буквы
+     * Заканчивается на (!|?|.) + " "
+     * @param wordCount количетсво слов в предложении
+     * @param words массив слов, которые могут встретиться в предложении
+     * @param probability вероятность появления слов из массива words (в процентах)
+     * @return строка, в которую записано предложение
+     */
+    private String makeSentence(int wordCount, String[] words, int probability){
+        boolean onlyArray = (probability >= 100 || probability < 0);
+        StringBuilder answ = new StringBuilder();
+        for (int k = 0; k < wordCount; k++) {
+            String tmp = (onlyArray || random.nextInt(100) < probability) ? words[random.nextInt(words.length)] : generateWord(random.nextInt(15) + 1);
+            if(random.nextInt(4) == 0 && k != wordCount - 1){
+                tmp += ",";
+            }
+            if (k == 0) {
+                tmp = makeWordFirst(tmp);
+            }
+            answ.append(tmp + ((k != wordCount - 1) ? " " : endSym[random.nextInt(endSym.length)] + " "));
+        }
+        return answ.toString();
+    }
+
+    /**
      * Приватная функция, которая генерирует слово заданной длины
      * @param length длина слова
      * @return случайное слово заданной длины
      */
     private String generateWord(int length){
         StringBuilder sb = new StringBuilder();
-        Random random = new Random();
         for (int i = 0 ; i < length; i++){
             sb.append((char)(random.nextInt(26) + 97));
         }
