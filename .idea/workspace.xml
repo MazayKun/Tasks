@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/ThreadPull.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task2/FileGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task2/FileGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test0.out" beforeDir="false" afterPath="$PROJECT_DIR$/test0.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLes6">
+  <component name="RunManager" selected="Application.TestLes7">
     <configuration name="TestLes2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les2.Test" />
       <module name="Tasks" />
@@ -88,11 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLes7" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les7.Test" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestLes3" />
       <item itemvalue="Application.TestLes2" />
       <item itemvalue="Application.TestLes5" />
       <item itemvalue="Application.TestLes6" />
+      <item itemvalue="Application.TestLes7" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -113,7 +126,8 @@
       <workItem from="1573498901460" duration="8653000" />
       <workItem from="1573548438531" duration="3282000" />
       <workItem from="1573583186564" duration="274000" />
-      <workItem from="1573632803399" duration="1658000" />
+      <workItem from="1573632803399" duration="4050000" />
+      <workItem from="1573741865579" duration="4409000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -234,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573583448303</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Добавил дополнительный метод, генерирущий предложение по заданным притериям">
+      <created>1573634501601</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573634501601</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +292,7 @@
     <MESSAGE value="Добавил документацию" />
     <MESSAGE value="Подправил методы remove, hashCode и изменил коллекцию на hashSet" />
     <MESSAGE value="Забыл добавить запятые, теперь они тоже присутствуют" />
-    <option name="LAST_COMMIT_MESSAGE" value="Забыл добавить запятые, теперь они тоже присутствуют" />
+    <MESSAGE value="Добавил дополнительный метод, генерирущий предложение по заданным притериям" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил дополнительный метод, генерирущий предложение по заданным притериям" />
   </component>
 </project>

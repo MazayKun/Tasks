@@ -1,11 +1,8 @@
 package ru.mikheev.kirill.les3;
 
-import ru.mikheev.kirill.les3.task1.MathBox;
-
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
 
 /**
+ * Файл мейн для тестирования заданий по 3 занятию
  * @author Kirill Mikheev
  * @version 1.0
  *

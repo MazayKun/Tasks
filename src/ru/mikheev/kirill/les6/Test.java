@@ -12,10 +12,10 @@ import ru.mikheev.kirill.les6.task2.FileGenerator;
 public class Test {
     public static void main(String[] args){
         System.out.println("Puff");
-        //FileSorter fs = new FileSorter();
-        //fs.sortFile("test.in", "test.out");
-        FileGenerator fg = new FileGenerator();
-        String[] words = {"kek", "lol", "fif", "dod"};
-        fg.getFiles("", 1, 500, words, 50);
+        FileSorter fs = new FileSorter();
+        fs.sortFile("test.in", "test.out");
+        //FileGenerator fg = new FileGenerator();
+        //String[] words = {"kek", "lol", "fif", "dod"};
+        //fg.getFiles("", 1, 500, words, 50);
     }
 }

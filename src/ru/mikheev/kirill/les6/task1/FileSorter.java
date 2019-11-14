@@ -1,8 +1,8 @@
 package ru.mikheev.kirill.les6.task1;
 
 import java.io.*;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Класс содержит в себе один метод, предназначенный для сортировки заданного файла.
@@ -33,6 +33,7 @@ public class FileSorter {
             }
             answ.add(word.toString());
             word.delete(0, word.length());
+
             for(String toRead : answ){
                 fos.write(toRead.getBytes());
                 fos.write(' ');

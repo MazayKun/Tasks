@@ -6,6 +6,7 @@ import ru.mikheev.kirill.les5.task.Animal;
 import ru.mikheev.kirill.les5.task.AnimalDataBank;
 
 /**
+ * Файл мейн для тестирования заданий по 5 занятию
  * @author Kirill Mikheev
  * @version 1.0
  */
