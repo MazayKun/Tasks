@@ -46,7 +46,7 @@ public class ThreadPull {
         if(number == 0) {
             return new BigInteger("1");
         }else{
-            if(number < threadCount){
+            if(number <= threadCount){
                 FutureTask<BigInteger> answ = new FutureTask<>(new Calculator(1, number));
                 new Thread(answ).start();
                 return answ.get();
@@ -54,7 +54,7 @@ public class ThreadPull {
             else {
                 ArrayList<FutureTask<BigInteger>> futures = new ArrayList<>();
                 for (int i = 0; i < threadCount; i++) {
-                    FutureTask<BigInteger> tmp = new FutureTask<>(new Calculator((i == 0) ? 1 : number / 3 * i, (i == threadCount - 1) ? number + 1 : number / 3 * (i + 1)));
+                    FutureTask<BigInteger> tmp = new FutureTask<>(new Calculator((i == 0) ? 1 : number / threadCount * i, (i == threadCount - 1) ? number + 1 : number / threadCount * (i + 1)));
                     new Thread(tmp).start();
                     futures.add(tmp);
                 }
