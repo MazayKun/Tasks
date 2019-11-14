@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/ThreadPull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les3/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les5/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/ThreadPull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/ThreadPull.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +122,7 @@
       <workItem from="1573548438531" duration="3282000" />
       <workItem from="1573583186564" duration="274000" />
       <workItem from="1573632803399" duration="4050000" />
-      <workItem from="1573741865579" duration="4409000" />
+      <workItem from="1573741865579" duration="5188000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -255,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573634501601</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Добавил бета версию задачи за 7 занятие про факториал&#10;Пока что от кода пахнет, и он без доков">
+      <created>1573746453896</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573746453896</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +295,7 @@
     <MESSAGE value="Подправил методы remove, hashCode и изменил коллекцию на hashSet" />
     <MESSAGE value="Забыл добавить запятые, теперь они тоже присутствуют" />
     <MESSAGE value="Добавил дополнительный метод, генерирущий предложение по заданным притериям" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил дополнительный метод, генерирущий предложение по заданным притериям" />
+    <MESSAGE value="Добавил бета версию задачи за 7 занятие про факториал&#10;Пока что от кода пахнет, и он без доков" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил бета версию задачи за 7 занятие про факториал&#10;Пока что от кода пахнет, и он без доков" />
   </component>
 </project>
