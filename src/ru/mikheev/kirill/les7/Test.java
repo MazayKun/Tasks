@@ -6,6 +6,7 @@ import java.math.BigInteger;
 import java.util.concurrent.ExecutionException;
 
 /**
+ * Класс мейн для тестирования задачи по 7 заданию
  * @author Kirill Mikheev
  * @version 1.0
  */
