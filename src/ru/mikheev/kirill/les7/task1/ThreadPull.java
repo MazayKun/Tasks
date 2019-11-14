@@ -47,7 +47,7 @@ public class ThreadPull {
             return new BigInteger("1");
         }else{
             if(number <= threadCount){
-                FutureTask<BigInteger> answ = new FutureTask<>(new Calculator(1, number));
+                FutureTask<BigInteger> answ = new FutureTask<>(new Calculator(1, number + 1));
                 new Thread(answ).start();
                 return answ.get();
             }

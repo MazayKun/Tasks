@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/Calculator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +121,7 @@
       <workItem from="1573548438531" duration="3282000" />
       <workItem from="1573583186564" duration="274000" />
       <workItem from="1573632803399" duration="4050000" />
-      <workItem from="1573741865579" duration="5750000" />
+      <workItem from="1573741865579" duration="6002000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -269,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573747198107</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="пофиксил баг с количетсвом потоков не равным 3...">
+      <created>1573747718771</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1573747718771</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +318,7 @@
     <MESSAGE value="Добавил бета версию задачи за 7 занятие про факториал&#10;Пока что от кода пахнет, и он без доков" />
     <MESSAGE value="Добавил доки, провел базовый рефакторинг&#10;Как мне кажется, от кода еще попахивает, но хоть что-то показать нужно" />
     <MESSAGE value="Забыл доку для Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Забыл доку для Test" />
+    <MESSAGE value="пофиксил баг с количетсвом потоков не равным 3..." />
+    <option name="LAST_COMMIT_MESSAGE" value="пофиксил баг с количетсвом потоков не равным 3..." />
   </component>
 </project>

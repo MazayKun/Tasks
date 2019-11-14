@@ -16,7 +16,6 @@ public class Calculator implements Callable<BigInteger> {
     private Integer start;
     private Integer end;
 
-
     /**
      * Конструктор получающий на вход нужный нам промежуток
      * @param start начало промежутка
