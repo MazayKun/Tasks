@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1_v2/ThreadPull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.out" beforeDir="false" afterPath="$PROJECT_DIR$/test.out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +124,9 @@
       <workItem from="1573548438531" duration="3282000" />
       <workItem from="1573583186564" duration="274000" />
       <workItem from="1573632803399" duration="4050000" />
-      <workItem from="1573741865579" duration="6002000" />
+      <workItem from="1573741865579" duration="10038000" />
+      <workItem from="1573840627380" duration="667000" />
+      <workItem from="1573919785274" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -277,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573747718771</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="пофиксил баг с количетсвом потоков не равным 3...(еще раз)">
+      <created>1573748078932</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573748078932</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +331,7 @@
     <MESSAGE value="Добавил доки, провел базовый рефакторинг&#10;Как мне кажется, от кода еще попахивает, но хоть что-то показать нужно" />
     <MESSAGE value="Забыл доку для Test" />
     <MESSAGE value="пофиксил баг с количетсвом потоков не равным 3..." />
-    <option name="LAST_COMMIT_MESSAGE" value="пофиксил баг с количетсвом потоков не равным 3..." />
+    <MESSAGE value="пофиксил баг с количетсвом потоков не равным 3...(еще раз)" />
+    <option name="LAST_COMMIT_MESSAGE" value="пофиксил баг с количетсвом потоков не равным 3...(еще раз)" />
   </component>
 </project>
