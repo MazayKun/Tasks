@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/task1_v2/ThreadPull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/interfaces/ISerializator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task1/Serializator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task2/CoolerSerializator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les7/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.out" beforeDir="false" afterPath="$PROJECT_DIR$/test.out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLes7">
+  <component name="RunManager" selected="Application.TestLes8">
     <configuration name="TestLes2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les2.Test" />
       <module name="Tasks" />
@@ -97,7 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLes8" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les8.Test" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.TestLes8" />
       <item itemvalue="Application.TestLes3" />
       <item itemvalue="Application.TestLes2" />
       <item itemvalue="Application.TestLes5" />
@@ -126,7 +137,7 @@
       <workItem from="1573632803399" duration="4050000" />
       <workItem from="1573741865579" duration="10038000" />
       <workItem from="1573840627380" duration="667000" />
-      <workItem from="1573919785274" duration="2748000" />
+      <workItem from="1573919785274" duration="11999000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -289,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573748078932</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Сделал подсчет факториалов с ипользованием Executor из пакета Concurrent">
+      <created>1573926971055</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1573926971055</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +350,7 @@
     <MESSAGE value="Забыл доку для Test" />
     <MESSAGE value="пофиксил баг с количетсвом потоков не равным 3..." />
     <MESSAGE value="пофиксил баг с количетсвом потоков не равным 3...(еще раз)" />
-    <option name="LAST_COMMIT_MESSAGE" value="пофиксил баг с количетсвом потоков не равным 3...(еще раз)" />
+    <MESSAGE value="Сделал подсчет факториалов с ипользованием Executor из пакета Concurrent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал подсчет факториалов с ипользованием Executor из пакета Concurrent" />
   </component>
 </project>
