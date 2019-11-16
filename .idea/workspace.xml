@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/interfaces/ISerializator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task1/Serializator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task2/CoolerSerializator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/CoolerTestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task1/Serializator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task1/Serializator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task2/CoolerSerializator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task2/CoolerSerializator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.out" beforeDir="false" afterPath="$PROJECT_DIR$/test.out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,7 +137,7 @@
       <workItem from="1573632803399" duration="4050000" />
       <workItem from="1573741865579" duration="10038000" />
       <workItem from="1573840627380" duration="667000" />
-      <workItem from="1573919785274" duration="11999000" />
+      <workItem from="1573919785274" duration="16994000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573926971055</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Сделал сериализацию объектов, включающих только примитивные поля или строки">
+      <created>1573936906990</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573936906990</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +358,7 @@
     <MESSAGE value="пофиксил баг с количетсвом потоков не равным 3..." />
     <MESSAGE value="пофиксил баг с количетсвом потоков не равным 3...(еще раз)" />
     <MESSAGE value="Сделал подсчет факториалов с ипользованием Executor из пакета Concurrent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал подсчет факториалов с ипользованием Executor из пакета Concurrent" />
+    <MESSAGE value="Сделал сериализацию объектов, включающих только примитивные поля или строки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал сериализацию объектов, включающих только примитивные поля или строки" />
   </component>
 </project>
