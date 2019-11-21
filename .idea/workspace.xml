@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/CoolerTestClass.java" afterDir="false" />
+    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="Запилил совсем простой чатик на сокетах">
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/client/CPortListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/client/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/SPortListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les6/task1/FileSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task1/Serializator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task1/Serializator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task2/CoolerSerializator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/task2/CoolerSerializator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.out" beforeDir="false" afterPath="$PROJECT_DIR$/test.out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +46,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/jbr" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +57,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3925" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLes8">
+  <component name="RunManager" selected="Application.les10server">
     <configuration name="TestLes2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les2.Test" />
       <module name="Tasks" />
@@ -107,14 +117,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLes9" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les9.Test" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="les10client (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.client.TestClient" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mikheev.kirill.les10.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="les10client" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.client.TestClient" />
+      <module name="Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mikheev.kirill.les10.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="les10server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.server.TestServer" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestLes8" />
       <item itemvalue="Application.TestLes3" />
       <item itemvalue="Application.TestLes2" />
       <item itemvalue="Application.TestLes5" />
+      <item itemvalue="Application.les10server" />
       <item itemvalue="Application.TestLes6" />
+      <item itemvalue="Application.TestLes9" />
       <item itemvalue="Application.TestLes7" />
+      <item itemvalue="Application.les10client (1)" />
+      <item itemvalue="Application.les10client" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.les10client" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -137,7 +196,10 @@
       <workItem from="1573632803399" duration="4050000" />
       <workItem from="1573741865579" duration="10038000" />
       <workItem from="1573840627380" duration="667000" />
-      <workItem from="1573919785274" duration="16994000" />
+      <workItem from="1573919785274" duration="18804000" />
+      <workItem from="1574073800846" duration="8522000" />
+      <workItem from="1574271421542" duration="9609000" />
+      <workItem from="1574325409572" duration="23874000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -314,7 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573936906990</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Допилил более классный сериализатор и добавил доков">
+      <created>1573943633288</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1573943633288</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Добавил результаты тестов">
+      <created>1573943684251</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1573943684251</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,9 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
-    <MESSAGE value="add time" />
-    <MESSAGE value="Add DoppelgangerException" />
     <MESSAGE value="fix" />
     <MESSAGE value="Add JavaDoc" />
     <MESSAGE value="Fix some minor mistakes" />
@@ -359,6 +432,9 @@
     <MESSAGE value="пофиксил баг с количетсвом потоков не равным 3...(еще раз)" />
     <MESSAGE value="Сделал подсчет факториалов с ипользованием Executor из пакета Concurrent" />
     <MESSAGE value="Сделал сериализацию объектов, включающих только примитивные поля или строки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал сериализацию объектов, включающих только примитивные поля или строки" />
+    <MESSAGE value="Допилил более классный сериализатор и добавил доков" />
+    <MESSAGE value="Добавил результаты тестов" />
+    <MESSAGE value="Запилил совсем простой чатик на сокетах" />
+    <option name="LAST_COMMIT_MESSAGE" value="Запилил совсем простой чатик на сокетах" />
   </component>
 </project>
