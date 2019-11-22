@@ -8,7 +8,7 @@ package ru.mikheev.kirill.les10.client;
 
 public class TestClient {
     public static void main(String[] args) {
-        Client client = new Client( "127.0.0.1");
+        Client client = new Client( "192.168.1.37");
         client.startClient();
     }
 }
