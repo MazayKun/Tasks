@@ -3,6 +3,7 @@ package ru.mikheev.kirill.les8;
 import ru.mikheev.kirill.les8.task1.Serializator;
 import ru.mikheev.kirill.les8.task2.CoolerSerializator;
 
+
 /**
  * Класс мейн для тестирования задачи по 8 заданию
  * @author Kirill Mikheev

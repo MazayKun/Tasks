@@ -67,7 +67,9 @@ public class Server {
             return;
         }
         if(message.matches("\\$left.*")){
+            broadcastMessage(clients.get(packet.getAddress()) + " left", "Server");
             removeClient(packet);
+            return;
         }
         if(message.matches("/unicast\\s\\$.*\\$.*")){
             unicast(packet, clients.get(packet.getAddress()), message.split("\\$")[1]);

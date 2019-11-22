@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Client:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="Запилил совсем простой чатик на сокетах">
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/client/CPortListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/client/TestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/SPortListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Client_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Core.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/MyClassLoader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,6 +44,13 @@
       </set>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Sw89K4MxsOl0AYnoKzYzsN6GBf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -57,10 +66,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3925" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,7 +83,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.les10server">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.client.TestClient" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.server.TestServer" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLes2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les2.Test" />
       <module name="Tasks" />
@@ -124,56 +147,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="les10client (1)" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.client.TestClient" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mikheev.kirill.les10.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="les10client" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.client.TestClient" />
-      <module name="Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mikheev.kirill.les10.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="les10server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.server.TestServer" />
-      <module name="Tasks" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.TestLes8" />
       <item itemvalue="Application.TestLes3" />
       <item itemvalue="Application.TestLes2" />
       <item itemvalue="Application.TestLes5" />
-      <item itemvalue="Application.les10server" />
       <item itemvalue="Application.TestLes6" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
       <item itemvalue="Application.TestLes9" />
       <item itemvalue="Application.TestLes7" />
-      <item itemvalue="Application.les10client (1)" />
-      <item itemvalue="Application.les10client" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.les10client" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -199,7 +183,9 @@
       <workItem from="1573919785274" duration="18804000" />
       <workItem from="1574073800846" duration="8522000" />
       <workItem from="1574271421542" duration="9609000" />
-      <workItem from="1574325409572" duration="23874000" />
+      <workItem from="1574325409572" duration="33086000" />
+      <workItem from="1574377583998" duration="91000" />
+      <workItem from="1574413766745" duration="3805000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -390,7 +376,28 @@
       <option name="project" value="LOCAL" />
       <updated>1573943684251</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Запилил совсем простой чатик на сокетах">
+      <created>1574367544170</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1574367544170</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Добавил доков и починил некоторые проблемы с отображением сообщений&#10;Немного изменил класс сервер, для большего удобства">
+      <created>1574416408229</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1574416408229</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Удалил лишние импорты">
+      <created>1574416499093</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1574416499093</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,8 +417,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix" />
-    <MESSAGE value="Add JavaDoc" />
     <MESSAGE value="Fix some minor mistakes" />
     <MESSAGE value="Add tasks 3" />
     <MESSAGE value="Uploaded the changes in task 1 and task 3 of the 3rd lesson." />
@@ -435,6 +440,8 @@
     <MESSAGE value="Допилил более классный сериализатор и добавил доков" />
     <MESSAGE value="Добавил результаты тестов" />
     <MESSAGE value="Запилил совсем простой чатик на сокетах" />
-    <option name="LAST_COMMIT_MESSAGE" value="Запилил совсем простой чатик на сокетах" />
+    <MESSAGE value="Добавил доков и починил некоторые проблемы с отображением сообщений&#10;Немного изменил класс сервер, для большего удобства" />
+    <MESSAGE value="Удалил лишние импорты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил лишние импорты" />
   </component>
 </project>
