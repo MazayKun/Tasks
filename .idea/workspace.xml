@@ -6,17 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="Запилил совсем простой чатик на сокетах">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Client_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les10/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les8/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/MyClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Worker.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.TestLes9">
     <configuration name="Client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.client.TestClient" />
       <module name="Tasks" />
@@ -185,7 +180,10 @@
       <workItem from="1574271421542" duration="9609000" />
       <workItem from="1574325409572" duration="33086000" />
       <workItem from="1574377583998" duration="91000" />
-      <workItem from="1574413766745" duration="3805000" />
+      <workItem from="1574413766745" duration="5255000" />
+      <workItem from="1574451776965" duration="361000" />
+      <workItem from="1574537736966" duration="1667000" />
+      <workItem from="1574540761862" duration="5974000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -397,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574416499093</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Починил ошибку с выходом ползователя">
+      <created>1574417949439</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1574417949439</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix some minor mistakes" />
     <MESSAGE value="Add tasks 3" />
     <MESSAGE value="Uploaded the changes in task 1 and task 3 of the 3rd lesson." />
     <MESSAGE value="Add class animal for les5.task" />
@@ -442,6 +446,7 @@
     <MESSAGE value="Запилил совсем простой чатик на сокетах" />
     <MESSAGE value="Добавил доков и починил некоторые проблемы с отображением сообщений&#10;Немного изменил класс сервер, для большего удобства" />
     <MESSAGE value="Удалил лишние импорты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Удалил лишние импорты" />
+    <MESSAGE value="Починил ошибку с выходом ползователя" />
+    <option name="LAST_COMMIT_MESSAGE" value="Починил ошибку с выходом ползователя" />
   </component>
 </project>
