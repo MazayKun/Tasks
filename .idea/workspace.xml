@@ -183,7 +183,7 @@
       <workItem from="1574413766745" duration="5255000" />
       <workItem from="1574451776965" duration="361000" />
       <workItem from="1574537736966" duration="1667000" />
-      <workItem from="1574540761862" duration="5974000" />
+      <workItem from="1574540761862" duration="6340000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -402,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574417949439</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Переделал задачу за 9 занятие, она конечно не вау, но сойдет&#10;Основной функционал не работает, но тему освоил">
+      <created>1574547333807</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1574547333807</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +429,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add tasks 3" />
     <MESSAGE value="Uploaded the changes in task 1 and task 3 of the 3rd lesson." />
     <MESSAGE value="Add class animal for les5.task" />
     <MESSAGE value="Добавил свинослона" />
@@ -447,6 +453,7 @@
     <MESSAGE value="Добавил доков и починил некоторые проблемы с отображением сообщений&#10;Немного изменил класс сервер, для большего удобства" />
     <MESSAGE value="Удалил лишние импорты" />
     <MESSAGE value="Починил ошибку с выходом ползователя" />
-    <option name="LAST_COMMIT_MESSAGE" value="Починил ошибку с выходом ползователя" />
+    <MESSAGE value="Переделал задачу за 9 занятие, она конечно не вау, но сойдет&#10;Основной функционал не работает, но тему освоил" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделал задачу за 9 занятие, она конечно не вау, но сойдет&#10;Основной функционал не работает, но тему освоил" />
   </component>
 </project>
