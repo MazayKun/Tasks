@@ -7,10 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les11/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les11/task/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les11/task/AnimalDataBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javassist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les12/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les12/task1/OutOfMemoryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les12/task2/OutOfMemoryMeta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +54,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ru/mikheev/kirill/les11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javassist-3.12.1.GA.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +62,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3925" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -85,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLes11">
+  <component name="RunManager" selected="Application.TestLes12">
     <configuration name="Client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.client.TestClient" />
       <module name="Tasks" />
@@ -107,6 +109,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLes12" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les12.Test" />
+      <module name="Tasks" />
+      <option name="VM_PARAMETERS" value="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -XX:+UseG1GC -XX:+UnlockCommercialFeatures -XX:+FlightRecorder -XX:MaxMetaspaceSize=12m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLes2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les2.Test" />
       <module name="Tasks" />
@@ -117,6 +127,7 @@
     <configuration name="TestLes3" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les5.Test" />
       <module name="Tasks" />
+      <option name="VM_PARAMETERS" value="-XX:+UnlockCommercialFeatures -XX:+FlightRecorder" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,6 +168,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestLes12" />
       <item itemvalue="Application.TestLes8" />
       <item itemvalue="Application.TestLes3" />
       <item itemvalue="Application.TestLes2" />
@@ -199,7 +211,9 @@
       <workItem from="1574451776965" duration="361000" />
       <workItem from="1574537736966" duration="1667000" />
       <workItem from="1574540761862" duration="6418000" />
-      <workItem from="1574938110528" duration="1870000" />
+      <workItem from="1574938110528" duration="5485000" />
+      <workItem from="1574953760684" duration="4852000" />
+      <workItem from="1574971925576" duration="1930000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -432,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574547386751</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Переделал 5 задание с использованием лямбда (просто перезалил то же самое)">
+      <created>1574944004095</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1574944004095</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add class animal for les5.task" />
     <MESSAGE value="Добавил свинослона" />
     <MESSAGE value="Починил отсутствие элементов" />
     <MESSAGE value="Добавил первый таск" />
@@ -477,6 +497,7 @@
     <MESSAGE value="Починил ошибку с выходом ползователя" />
     <MESSAGE value="Переделал задачу за 9 занятие, она конечно не вау, но сойдет&#10;Основной функционал не работает, но тему освоил" />
     <MESSAGE value="Забыл догрузить файл для тестирования" />
-    <option name="LAST_COMMIT_MESSAGE" value="Забыл догрузить файл для тестирования" />
+    <MESSAGE value="Переделал 5 задание с использованием лямбда (просто перезалил то же самое)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделал 5 задание с использованием лямбда (просто перезалил то же самое)" />
   </component>
 </project>
