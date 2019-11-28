@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les11/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les11/task/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les11/task/AnimalDataBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/MyClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les9/task/Worker.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/jbr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ru/mikheev/kirill/les11" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,6 +64,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3925" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.mikheev.kirill.les11" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kir_9\IdeaProjects\Tasks\src\ru\mikheev\kirill\les11" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLes9">
+  <component name="RunManager" selected="Application.TestLes11">
     <configuration name="Client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.client.TestClient" />
       <module name="Tasks" />
@@ -88,6 +95,13 @@
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les10.server.TestServer" />
+      <module name="Tasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLes11" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.mikheev.kirill.les11.Test" />
       <module name="Tasks" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,6 +165,7 @@
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.TestLes9" />
+      <item itemvalue="Application.TestLes11" />
       <item itemvalue="Application.TestLes7" />
     </list>
   </component>
@@ -183,7 +198,8 @@
       <workItem from="1574413766745" duration="5255000" />
       <workItem from="1574451776965" duration="361000" />
       <workItem from="1574537736966" duration="1667000" />
-      <workItem from="1574540761862" duration="6340000" />
+      <workItem from="1574540761862" duration="6418000" />
+      <workItem from="1574938110528" duration="1870000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -409,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574547333807</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Забыл догрузить файл для тестирования">
+      <created>1574547386751</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1574547386751</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Uploaded the changes in task 1 and task 3 of the 3rd lesson." />
     <MESSAGE value="Add class animal for les5.task" />
     <MESSAGE value="Добавил свинослона" />
     <MESSAGE value="Починил отсутствие элементов" />
@@ -454,6 +476,7 @@
     <MESSAGE value="Удалил лишние импорты" />
     <MESSAGE value="Починил ошибку с выходом ползователя" />
     <MESSAGE value="Переделал задачу за 9 занятие, она конечно не вау, но сойдет&#10;Основной функционал не работает, но тему освоил" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переделал задачу за 9 занятие, она конечно не вау, но сойдет&#10;Основной функционал не работает, но тему освоил" />
+    <MESSAGE value="Забыл догрузить файл для тестирования" />
+    <option name="LAST_COMMIT_MESSAGE" value="Забыл догрузить файл для тестирования" />
   </component>
 </project>
