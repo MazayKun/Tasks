@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javassist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les12/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les12/task1/OutOfMemoryHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les12/task2/OutOfMemoryMeta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.iml" afterDir="false" />
-    </list>
+    <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +206,7 @@
       <workItem from="1574540761862" duration="6418000" />
       <workItem from="1574938110528" duration="5485000" />
       <workItem from="1574953760684" duration="4852000" />
-      <workItem from="1574971925576" duration="1930000" />
+      <workItem from="1574971925576" duration="2644000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -453,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574944004095</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Переделал 5 задание с использованием лямбда (просто перезалил то же самое)">
+      <created>1574980082912</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1574980082912</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
