@@ -7,18 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46e25943-48a4-4796-9293-2902945b929d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/TableDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/accessory_stuff/RoleDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/accessory_stuff/TableInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/instances/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/instances/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/instances/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/TableDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/TableDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mikheev/kirill/les14_16/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -293,7 +284,7 @@
       <workItem from="1574986553967" duration="98000" />
       <workItem from="1575289885586" duration="329000" />
       <workItem from="1575542370647" duration="1843000" />
-      <workItem from="1575732981416" duration="9934000" />
+      <workItem from="1575732981416" duration="11840000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1572468593956</created>
@@ -547,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574986643478</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Запилил часть задания с постгресом">
+      <created>1575749958635</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1575749958635</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Починил отсутствие элементов" />
     <MESSAGE value="Добавил первый таск" />
     <MESSAGE value="Добавил второй таск" />
     <MESSAGE value="Добавил файл с ответами" />
@@ -592,6 +589,7 @@
     <MESSAGE value="Забыл догрузить файл для тестирования" />
     <MESSAGE value="Переделал 5 задание с использованием лямбда (просто перезалил то же самое)" />
     <MESSAGE value="Залил UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Залил UML" />
+    <MESSAGE value="Запилил часть задания с постгресом" />
+    <option name="LAST_COMMIT_MESSAGE" value="Запилил часть задания с постгресом" />
   </component>
 </project>

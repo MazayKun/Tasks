@@ -2,6 +2,7 @@ package ru.mikheev.kirill.les14_16;
 
 import ru.mikheev.kirill.les14_16.accessory_stuff.RoleDefinitions;
 import ru.mikheev.kirill.les14_16.instances.User;
+import ru.mikheev.kirill.les14_16.instances.UserRole;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -29,6 +30,11 @@ public class Test {
             tableManager.addInstance(connection, user2);
             tableManager.addInstance(connection, user3);
             tableManager.addRoleByParameters(connection, 0, RoleDefinitions.ADMINISTRATION, "dfghjkl;");
+            tableManager.getParamSample(connection, "hi", "Mark");
+            UserRole userRole1 = new UserRole(10, 10);
+            UserRole userRole2 = new UserRole(20, 20);
+            UserRole userRole3 = new UserRole(30, 30);
+            tableManager.addUserRolesWithSavePoint(connection, userRole1, userRole2, userRole3);
         }catch (ClassNotFoundException e) {
             e.printStackTrace();
         }catch (SQLException e){
