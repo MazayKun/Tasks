@@ -9,6 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
+ * Метод для тестирования всех пунктов дз
  * @author Kirill Mikheev
  * @version 1.0
  */
